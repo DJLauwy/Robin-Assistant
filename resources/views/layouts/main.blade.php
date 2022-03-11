@@ -7,6 +7,7 @@
     <body>
 
         @include('layouts.blocks.nav')
+        @include('layouts.blocks.footer')
 
     </body>
 </html>
