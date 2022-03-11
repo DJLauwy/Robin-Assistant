@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Routes
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
+//Authorized Routes
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
