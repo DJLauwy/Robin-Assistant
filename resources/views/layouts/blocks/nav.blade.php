@@ -1,3 +1,3 @@
 <nav>
-    <h2>Navigatie</h2>
+    <h1>Navigatie</h1>
 </nav>

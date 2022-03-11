@@ -8,6 +8,5 @@
 
         @include('layouts.blocks.nav')
 
-        <h1>@section('kop') 404 @show</h1>
     </body>
 </html>
