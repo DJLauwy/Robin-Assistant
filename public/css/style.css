@@ -5,6 +5,13 @@
 @import 'blocks/nav.css';
 @import 'blocks/footer.css';
 @import 'blocks/welcome.css';
+@import 'blocks/list.css';
+@import 'blocks/melding.css';
+@import 'blocks/naar_bed.css';
+@import 'blocks/opstaan_bed.css';
+@import 'blocks/tasks.css';
+@import 'blocks/client.css';
+
 
 /* Fonts */
 @font-face {
@@ -24,6 +31,9 @@
 /* --- */
 
 /* Bodies */
+body{
+    background-color:#F5F5F5;
+}
 .main-body{
     height:100vh;
     position: relative;
