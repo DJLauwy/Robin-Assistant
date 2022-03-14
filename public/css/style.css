@@ -43,7 +43,8 @@ body{
 .overview-body{
     position: relative;
 }
-.detail-body{
+.details-body{
+    padding: 50px;
     position: relative;
 }
 /* --- */
