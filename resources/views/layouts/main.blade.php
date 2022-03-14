@@ -6,6 +6,8 @@
     </head>
     <body class="main-body">
 
+    <img class="logo-vaag"  src="{{ asset('img/logo-vaag.png') }}" alt="">
+
     @include('layouts.blocks.data')
     @include('layouts.blocks.header')
     @include('layouts.blocks.content')

@@ -30,6 +30,11 @@ Route::get('/vergeten', function(){
     return view('vergeten');
 });
 
+Route::get('/client', function(){
+    return view('client');
+});
+
+
 //Authorized Routes
 Route::get('/dashboard', function () {
     return view('dashboard');

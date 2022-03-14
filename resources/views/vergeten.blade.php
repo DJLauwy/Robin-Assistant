@@ -16,9 +16,8 @@
             <div class="title">
                 <h1>Wachtwoord vergeten</h1>
             </div>
-
             <form class="login">
-                <input class="name"  type="text" id="lname" placeholder="E-mail" name="lname"><br>
+                <input class="name"  type="text" id="fname" placeholder="E-mail"><br>
                 <input class="bottom-registreer" type="button" value="Wachtwoord vergeten?">
 
                 <div class="login-footer">

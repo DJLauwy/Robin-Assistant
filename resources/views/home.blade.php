@@ -5,7 +5,7 @@
 @endsection
 
 @section('data')
-    <img src="" alt="">
+
 @endsection
 
 @section('content')
