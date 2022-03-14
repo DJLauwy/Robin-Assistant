@@ -1,5 +1,1 @@
-<nav>
-    <h2>Navigatie</h2>
-</nav>
-
-iets bij
+<div class="space-4"></div>

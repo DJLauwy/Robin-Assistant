@@ -1,0 +1,20 @@
+.container-top {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: #F5F5F5;
+    margin: auto;
+    border-radius: 80px 80px 0px 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
