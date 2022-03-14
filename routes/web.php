@@ -51,6 +51,7 @@ Route::get('/opstaan', function(){
 });
 
 
+
 //Authorized Routes
 Route::get('/dashboard', function () {
     return view('dashboard');
