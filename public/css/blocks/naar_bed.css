@@ -1,0 +1,40 @@
+.naar_bed{
+    margin-top:50px;
+    font-family: Gilroy;
+}
+
+.naar_bed-task{
+    display: flex;
+    width:100%;
+    margin-top:40px;
+}
+
+.naar_bed-holder{
+    width:100%;
+    padding:30px 60px;
+    box-sizing: border-box;
+    border-radius:25px;
+    box-shadow: 2px 5px 10px lightgray;
+    background-color: #fff;
+}
+
+.naar_bed-holder h2, .naar_bed-holder p{
+    background-color: #fff;
+    padding-bottom:5px;
+}
+.naar_bed-holder h2{
+    font-size:40px;
+    color:#000;
+}
+.naar_bed-holder p {
+    color: #B3DBCA;
+    font-size: 25px;
+}
+.inputs{
+    width:30%;
+    font-size:20px;
+    margin-bottom: 20px;
+    color:#B3DBCA;
+    background-color: #fff;
+    border:1px solid #B3DBCA;
+}

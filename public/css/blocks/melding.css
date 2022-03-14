@@ -1,0 +1,40 @@
+.melding{
+    margin-top:50px;
+    font-family: Gilroy;
+}
+
+.melding_notification{
+    display: flex;
+    width:100%;
+    margin-top:40px;
+}
+
+.melding_holder{
+    width:80%;
+    padding:30px 60px;
+    box-sizing: border-box;
+    border-radius:25px;
+    box-shadow: 2px 5px 10px lightgray;
+    background-color: #fff;
+}
+
+.melding_holder h2, .melding_holder p{
+    background-color: #fff;
+    padding:5px 0;
+}
+.melding_holder h2{
+    font-size:40px;
+    color:#000;
+}
+.melding_holder p {
+    color:#B3DBCA;
+    font-size:25px;
+}
+
+.melding_select{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
