@@ -38,8 +38,24 @@
 
  <section class="list">
 
+<label class="list-container">
 
+    <img src="/img/20.000 get-up.png" alt="20.000 get-up.png">
 
- </section>
+    Client 1
+    <input type="radio" checked="checked" name="radio">
+    <span class="list-checkmark"></span>
+</label>
+
+<label class="list-container">Client 2
+    <input type="radio" name="radio">
+    <span class="list-checkmark"></span>
+</label>
+
+<label class="list-container">Client 3
+    <input type="radio" name="radio">
+    <span class="list-checkmark"></span>
+</label>
+
 
 @endsection
