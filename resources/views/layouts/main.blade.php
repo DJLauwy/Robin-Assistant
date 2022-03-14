@@ -9,8 +9,7 @@
     @include('layouts.blocks.data')
     @include('layouts.blocks.header')
     @include('layouts.blocks.content')
-    @include('layouts.blocks.bot')
-    @include('layouts.blocks.footer')
+
 
     </body>
 </html>

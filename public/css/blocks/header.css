@@ -16,3 +16,8 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.robin-logo {
+    width: 20vw;
+    background-color: transparent;
+}
