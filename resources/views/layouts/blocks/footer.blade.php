@@ -1,4 +1,6 @@
-top.blade.php    <h2>Navigatie</h2>
-</nav>
+<div class="container-footer">
 
-iets bij
+<form class="login-footer" action="/action_page.php">
+    <input class="bottom-login" type="submit" value="Login"> <br>
+    <input class="bottom-registreer" type="button" value="Geen account? Registreer hier">
+</form>

@@ -1,3 +1,39 @@
-h2{
-    color:royalblue;
+.container-footer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F5;
+    margin: auto;
+
+}
+
+.login-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+
+}
+
+.bottom-login {
+    padding: 20px 70px;
+    background-color: #DC1462;
+    border: 1px solid  transparent;
+    color: white;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 30px;
+    box-shadow: 2px 5px 10px gray;
+
+}
+
+.bottom-registreer {
+    background-color: transparent;
+    color: #DC1462;
+    border: 1px solid  transparent;
+    margin: 0px 0px 50px 0px;
+    font-size: 15px;
 }

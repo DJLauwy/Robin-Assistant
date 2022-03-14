@@ -2,9 +2,8 @@
     <div>
 
         <form class="login" action="/action_page.php">
-            <input class=""  type="text" id="fname" name="fname"><br><br>
-            <input class=""  type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Submit">
+            <input class="name"  type="text" id="fname" value="Naam"><br><br>
+            <input class="wachtwoord"  type="text" id="lname" value="Wachtwoord" name="lname"><br><br>
         </form>
 
     </div>
