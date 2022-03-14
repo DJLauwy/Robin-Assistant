@@ -1,6 +1,3 @@
-
-
-        @section('content')
-            404
-        @show
-
+@section('content')
+    404
+@show

@@ -35,6 +35,7 @@ Route::get('/client', function(){
 });
 
 
+
 //Authorized Routes
 Route::get('/dashboard', function () {
     return view('dashboard');
