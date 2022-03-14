@@ -1,6 +1,29 @@
 @import 'blocks/nav.css';
+@import 'blocks/top.css';
+@import 'blocks/mid.css';
+@import 'blocks/bot.css';
 @import 'blocks/footer.css';
+@import 'blocks/background.css';
 
-h1{
-    color:red;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.space-1 {
+    padding: 20px;
+}
+
+.space-2 {
+    padding: 40px;
+}
+
+.space-3 {
+    padding: 60px;
+}
+
+.space-4 {
+    padding: 80px;
 }
