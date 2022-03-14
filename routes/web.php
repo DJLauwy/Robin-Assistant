@@ -22,6 +22,7 @@ Route::get('/tasks', function(){
     return view('tasks');
 });
 
+
 //Authorized Routes
 Route::get('/dashboard', function () {
     return view('dashboard');
