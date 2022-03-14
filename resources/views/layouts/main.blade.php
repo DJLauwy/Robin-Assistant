@@ -13,6 +13,12 @@
     @include('layouts.blocks.bot')
     @include('layouts.blocks.footer')
 
+    
+
         <h1>@section('kop') 404 @show</h1>
+        <h1>@section('name') 404 @show</h1>
+    <h1>@section('wachtwoord') 404 @show</h1>
+    <h1>@section('vergeten') 404 @show</h1>
+
     </body>
 </html>

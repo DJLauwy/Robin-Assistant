@@ -1,13 +1,34 @@
 @extends('layouts.main')
 
 @section('title')
-    Home
+    Login
 @endsection
 
 @section('kop')
-
+    Login
 @endsection
 
-@section('login')
+@section('name')
+    <div class="container-mid">
 
-@endsection
+            <form class="login" action="/action_page.php">
+
+                <input class="name"  type="text" id="fname" value="Naam"><br><br>
+            </form>
+        @endsection
+
+        @section('wachtwoord')
+            <form>
+
+            <input class="wachtwoord"  type="text" id="lname" value="Wachtwoord" name="lname"><br><br>
+            </form>
+
+        @endsection
+        @section('vergeten')
+            <form>
+
+                <input class="bottom-registreer" type="button" value="Wachtwoord vergeten?">
+            </form>
+
+        @endsection
+
