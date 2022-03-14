@@ -20,20 +20,20 @@
 
 .bottom-login {
     padding: 20px 70px;
-    background-color: #DC1462;
+    background-color: #F58604;
     border: 1px solid  transparent;
     color: white;
     border-radius: 30px;
     margin: 20px;
     font-size: 30px;
-    box-shadow: 2px 5px 10px gray;
+    box-shadow: 2px 5px 10px lightgray;
 
 }
 
 .bottom-registreer {
     background-color: transparent;
-    color: #DC1462;
-    border: 1px solid  transparent;
+    color: #F58604;
     margin: 0px 0px 50px 0px;
+    border: 1px solid  transparent;
     font-size: 15px;
 }
