@@ -8,6 +8,7 @@
 
 @include('layouts.blocks.data')
 @include('layouts.blocks.content')
+@include('layouts.blocks.nav')
 
 </body>
 </html>
