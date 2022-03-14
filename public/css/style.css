@@ -39,6 +39,18 @@
 }
 /* --- */
 
+/* Colors */
+.green{
+    color:#4AAA81;
+}
+/* -- */
+
+/* Shadow */
+.btn-shadow{
+    box-shadow: 2px 5px 10px lightgray;
+}
+/* --- */
+
 .space-1 {
     padding: 20px;
 }

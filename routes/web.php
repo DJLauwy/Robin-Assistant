@@ -22,13 +22,6 @@ Route::get('/tasks', function(){
     return view('tasks');
 });
 
-Route::get('/aanmelden', function(){
-    return view('aanmelden');
-});
-
-Route::get('/vergeten', function(){
-    return view('vergeten');
-});
 
 //Authorized Routes
 Route::get('/dashboard', function () {

@@ -7,6 +7,7 @@
 <body class="agenda-body">
 
 @include('layouts.blocks.welcome')
+@include('layouts.blocks.content')
 
 
 </body>
