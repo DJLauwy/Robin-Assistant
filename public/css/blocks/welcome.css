@@ -3,3 +3,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.welcome-logo img{
+    height:60px;
+}
+
+.date{
+    font-family: Gilroy;
+}
+.date h2{
+    color:black;
+}
+.date p{
+    text-align: right;
+}
