@@ -1,11 +1,9 @@
 .client-container {
-     display: flex;
+    display: flex;
     justify-content: center;
     position: relative;
+    margin-left: 40%;
     margin-bottom: 12px;
-    display: table;
-    margin-right: auto;
-    margin-left: auto;
 
     cursor: pointer;
     font-size: 22px;
