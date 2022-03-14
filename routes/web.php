@@ -22,6 +22,34 @@ Route::get('/tasks', function(){
     return view('tasks');
 });
 
+Route::get('/aanmelden', function(){
+    return view('aanmelden');
+});
+
+Route::get('/vergeten', function(){
+    return view('vergeten');
+});
+
+Route::get('/client', function(){
+    return view('client');
+});
+
+Route::get('/list', function(){
+    return view('list');
+});
+
+Route::get('/melding', function(){
+    return view('melding');
+});
+
+Route::get('/bedtijd', function(){
+    return view('naar_bed');
+});
+
+Route::get('/opstaan', function(){
+    return view('opstaan');
+});
+
 
 //Authorized Routes
 Route::get('/dashboard', function () {
