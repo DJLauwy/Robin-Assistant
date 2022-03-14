@@ -42,20 +42,85 @@
 
     <img src="/img/20.000 get-up.png" alt="20.000 get-up.png">
 
-    Client 1
+       <h3>
+           Opstaan <span> <h5>
+               8:00 - 9:00</h5>
+           </span>
+       </h3>
+
     <input type="radio" checked="checked" name="radio">
     <span class="list-checkmark"></span>
 </label>
 
-<label class="list-container">Client 2
+<label class="list-container">
+
+    <img src="/img/3.000 brush-teeth.png" alt="20.000 get-up.png">
+
+    <h3>
+        Tanden poetsen <span> <h5>
+               9:00 - 9:30</h5>
+           </span>
+    </h3>
+
     <input type="radio" name="radio">
     <span class="list-checkmark"></span>
 </label>
 
-<label class="list-container">Client 3
+<label class="list-container">
+
+    <img src="/img/6.000 take-a-pee.png" alt="20.000 get-up.png">
+
+    <h3>
+        Toilet <span> <h5>
+               9:30 - 9:45</h5>
+           </span>
+    </h3>
+
     <input type="radio" name="radio">
     <span class="list-checkmark"></span>
 </label>
+
+     <label class="list-container">
+
+         <img src="/img/1.000 take-a-shower.png" alt="20.000 get-up.png">
+
+         <h3>
+             Douchen <span> <h5>
+               9:45 - 10:15</h5>
+           </span>
+         </h3>
+
+         <input type="radio" name="radio">
+         <span class="list-checkmark"></span>
+     </label>
+
+     <label class="list-container">
+
+         <img src="/img/36.000 get-dressed.png" alt="20.000 get-up.png">
+
+         <h3>
+             Omkleden <span> <h5>
+               10:15 - 10:45</h5>
+           </span>
+         </h3>
+
+         <input type="radio" name="radio">
+         <span class="list-checkmark"></span>
+     </label>
+
+     <label class="list-container">
+
+         <img src="/img/14.000 put-makeup.png" alt="20.000 get-up.png">
+
+         <h3>
+             Make-Up <span> <h5>
+               10:45 - 11:30</h5>
+           </span>
+         </h3>
+
+         <input type="radio" name="radio">
+         <span class="list-checkmark"></span>
+     </label>
 
 
 @endsection
