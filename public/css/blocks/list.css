@@ -1,0 +1,173 @@
+.list {
+    border-radius: 80px 80px 0px 0px;
+    background-color: #F5F5F5;
+    top: -80px;
+    position: relative;
+    padding: 50px;
+}
+
+.list_h2  {
+    margin-left: 16vw;
+    background-color: #4AAA81;
+    color: white;
+    font-family: Gilroy;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.list_day {
+    background-color: #379D72 !important;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.list_arow-left {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    font-size: 80px;
+    color: #4AAA81;
+    font-weight: 900;
+    font-family: Gilroy;
+
+}
+
+.list_arow-right {
+    position: absolute;
+    top: 20px;
+
+    right: 20px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    font-size: 80px;
+    color: #4AAA81;
+    font-weight: 900;
+    font-family: Gilroy;
+
+}
+
+.datum {
+background-color: transparent;
+    width: 100%;
+}
+
+.datum tr {
+    font-size: 30px;
+    background-color: #4AAA81;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+.datum tr th {
+    margin: 0vw 3vw;
+    background-color: #4AAA81;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gilroy;
+
+}
+
+.list_icon {
+    width: 10vw;
+}
+
+
+.list_taak {
+    padding: 20px;
+    box-shadow: 2px 5px 10px lightgray;
+    border-radius: 25px;
+
+}
+
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 12px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+
+
+    padding: 25px;
+    font-family: Gilroy ;
+    color: #4AAA81;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 2px 5px 10px lightgray;
+    right: 100px;
+
+}
+
+/* Hide the browser's default radio button */
+.list-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.list-checkmark {
+    position: absolute;
+    top: 20px;
+    left: -200px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #F58604;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.list-container:hover input ~ .list-checkmark  {
+    background-color: #ffaf52 ;
+    opacity: 0.2;
+}
+
+/* When the radio button is checked, add a blue background */
+.list-container input:checked ~ .list-checkmark  {
+    background-color: #F58604;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.list-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.list-container input:checked ~ .list-checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.list-container .list-checkmark:after {
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+}
+
+.list-container img {
+    width: 20vw;
+}

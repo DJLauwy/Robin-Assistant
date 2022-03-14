@@ -2,6 +2,14 @@
     background-color: #F5F5F5;
 }
 
+
+input    {
+    margin: auto;
+    font-family: Gilroy;
+
+}
+
+
 .container-main {
     display: flex;
     align-items: center;
@@ -33,6 +41,10 @@ h1{
     /*-ms-transform: translate(-50%, -50%);*/
     /*transform: translate(-50%, -50%);*/
     background-color: #F5F5F5 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 .name {
@@ -49,6 +61,7 @@ h1{
 
 }
 
+
 .wachtwoord  {
     padding: 20px;
     border-radius: 25px;
@@ -60,6 +73,7 @@ h1{
     font-size: 30px;
     background-color: white;
     margin-bottom: 10px;
+
 
 }
 
