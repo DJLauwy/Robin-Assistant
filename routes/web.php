@@ -34,21 +34,6 @@ Route::get('/client', function(){
     return view('client');
 });
 
-Route::get('/list', function(){
-    return view('list');
-});
-
-Route::get('/melding', function(){
-    return view('melding');
-});
-
-Route::get('/bedtijd', function(){
-    return view('naar_bed');
-});
-
-Route::get('/opstaan', function(){
-    return view('opstaan');
-});
 
 
 //Authorized Routes
