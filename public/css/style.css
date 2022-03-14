@@ -1,16 +1,43 @@
-@import 'blocks/nav.css';
-@import 'blocks/top.css';
-@import 'blocks/mid.css';
+@import 'blocks/data.css';
+@import 'blocks/header.css';
+@import 'blocks/content.css';
 @import 'blocks/bot.css';
+@import 'blocks/nav.css';
 @import 'blocks/footer.css';
-@import 'blocks/background.css';
+@import 'blocks/welcome.css';
 
+/* Fonts */
+@font-face {
+    font-family: Gilroy;
+    src: url('/fonts/Gilroy-Light.otf');
+}
+@font-face {
+    font-family: Gilroy Bold;
+    src: url('/fonts/Gilroy-ExtraBold.otf');
+}
 
+/* General */
 * {
     margin: 0;
     padding: 0;
 }
+/* --- */
 
+/* Bodies */
+.main-body{
+    height:100vh;
+    position: relative;
+}
+.agenda-body{
+    padding:50px;
+}
+.overview-body{
+
+}
+.detail-body{
+
+}
+/* --- */
 
 .space-1 {
     padding: 20px;
