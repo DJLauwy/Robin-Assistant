@@ -24,7 +24,7 @@
     font-size: 30px;
     width: 25vh;
     border: 1px solid transparent;
-    box-shadow: 2px 5px 10px gray;
+    box-shadow: 2px 5px 10px lightgray;
 }
 
 .wachtwoord  {
@@ -32,7 +32,7 @@
     border-radius: 25px;
     width: 25vh;
     border: 1px solid transparent;
-    box-shadow: 2px 5px 10px gray;
+    box-shadow: 2px 5px 10px lightgray;
     text-align: center;
     color: #4AAA81;
     font-size: 30px;

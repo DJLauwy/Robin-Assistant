@@ -5,5 +5,9 @@
 @endsection
 
 @section('kop')
-    Welkom
+
+@endsection
+
+@section('login')
+
 @endsection
