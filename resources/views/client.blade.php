@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+    <section class="content container-main">
     <div class="title">
         <h1 class="client-titel">Kies een cliënt</h1>
     </div>

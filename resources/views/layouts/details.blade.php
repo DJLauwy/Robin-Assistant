@@ -6,7 +6,11 @@
 </head>
 <body class="details-body">
 
+
+
 @include('layouts.blocks.welcome')
+@include('layouts.blocks.content')
+@include('layouts.blocks.nav')
 
 
 </body>

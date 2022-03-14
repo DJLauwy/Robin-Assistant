@@ -1,0 +1,17 @@
+.nav{
+    background-color:#fff;
+    width:100vw;
+    position: fixed;
+    left:0;
+    bottom:0;
+    padding:25px;
+    border-radius:25px 25px 0 0;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    background-color:#fff;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
