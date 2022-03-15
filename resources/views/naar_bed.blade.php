@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="add-btn">
-            <a href="#">Voeg toe aan agenda</a>
+            <a href="/tasks">Voeg toe aan agenda</a>
         </div>
     </section>
 @endsection
