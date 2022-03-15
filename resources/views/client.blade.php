@@ -22,7 +22,7 @@
         <span class="checkmark"></span>
     </label>
 
-    <form class="login">
+    <form class="login" action="/tasks">
         <div class="login-footer">
             <input class="bottom-login" type="submit" value="Bevestig"> <br>
         </div>

@@ -12,7 +12,11 @@
                 <input class="inputs" type="date">
                 <h2>Tijd</h2>
                 <input class="inputs" type="time">
+                <img class="add_img" src="{{ asset('/img/icons/19.000 get-ready-for-bed.png') }}" alt="">
             </div>
+        </div>
+        <div class="add-btn">
+            <a href="#">Voeg toe aan agenda</a>
         </div>
     </section>
 @endsection

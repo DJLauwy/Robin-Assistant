@@ -14,14 +14,16 @@
             <div class="title">
                 <h1>login</h1>
             </div>
-            <form class="login">
+            <form class="login" action="/client">
                 <input class="name"  type="text" id="fname" placeholder="E-mail"><br>
                 <input class="wachtwoord"  type="text" id="lname" placeholder="Wachtwoord" name="lname"><br>
-                <input class="bottom-registreer" type="button" value="Wachtwoord vergeten?">
+                <a href="/vergeten" class="bottom-registreer" type="button">
+                    Wachtwoord vergeten?
+                </a>
 
                 <div class="login-footer">
                     <input class="bottom-login" type="submit" value="login"> <br>
-                    <a href="/register"><input class="bottom-registreer" type="button" value="Geen account? Registreer hier"></a>
+                    <a href="/aanmelden"><input class="bottom-registreer" type="button" value="Geen account? Registreer hier"></a>
                 </div>
             </form>
         </div>
