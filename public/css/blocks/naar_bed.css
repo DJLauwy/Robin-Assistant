@@ -16,6 +16,7 @@
     border-radius:25px;
     box-shadow: 2px 5px 10px lightgray;
     background-color: #fff;
+    position: relative;
 }
 
 .naar_bed-holder h2, .naar_bed-holder p{
@@ -37,4 +38,23 @@
     color:#B3DBCA;
     background-color: #fff;
     border:1px solid #B3DBCA;
+}
+.add_img{
+    position: absolute;
+    top:15%;
+    right:70px;
+    height:180px;
+    background-color: transparent;
+}
+.add-btn{
+    margin-top:50px;
+}
+.add-btn a{
+    padding:15px 30px;
+    border-radius: 15px;
+    background-color: #F58604;
+    box-shadow: 2px 5px 10px lightgray;
+    text-decoration: none;
+    font-size: 25px;
+    color:#fff;
 }
